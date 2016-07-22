@@ -16,4 +16,4 @@ print('Starting PhantomJS...')
 print('Using PhantomJS in: ' + phantomjs)
 print('Using port: ' + port)
 
-call(["phantomjs", "--webdriver=" + port])
+call([phantomjs, "--webdriver=" + port])
