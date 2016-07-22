@@ -10,7 +10,7 @@ phantomjs = os.path.join(
   'phantomjs.exe'
 )
 
-port = os.environ['HTTP_PLATFORM_PORT']
+port = os.environ['HTTP_PLATFORM_PORT'] or sys.argv[1]
 
 print('Starting PhantomJS...')
 print('Using PhantomJS in: ' + phantomjs)
